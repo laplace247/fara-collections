@@ -43,7 +43,9 @@ fara-collections/
 │   ├── App.jsx                    # Componente principal
 │   ├── index.css
 │   └── main.jsx                   # Punto de entrada
-├── index.html
+├── index.html                     # Página principal
+│   ├── head.html                  # Encabezado de la página
+│   ├── body.html                  # Cuerpo de la página
 ├── package.json
 ├── vite.config.js
 ├── tailwind.config.js
