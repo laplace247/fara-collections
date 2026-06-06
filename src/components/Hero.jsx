@@ -1,14 +1,15 @@
 export default function Hero() {
   return (
-    <section className="relative h-[70vh] min-h-[480px] max-h-[720px] flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative w-full aspect-video overflow-hidden flex flex-col items-center justify-center">
       {/* Background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(https://i.postimg.cc/sgdKNzh6/carru.jpg)' }}
+      <img
+        src="https://i.postimg.cc/v857dcxk/bann3r.jpg"
+        alt="Banner"
+        className="w-full h-full object-cover"
       />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      {/* Subtle Gradient Overlay for better depth */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
 
       {/* CTA */}
       <div className="absolute bottom-3 md:bottom-20 left-0 right-0 flex justify-center">
@@ -20,5 +21,5 @@ export default function Hero() {
         </a>
       </div>
     </section>
-  )
+  );
 }
