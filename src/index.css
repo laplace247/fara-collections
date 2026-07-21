@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss"; /* Esta es la nueva forma en v4 */
 
 @layer base {
   html {
