@@ -1,75 +1,39 @@
-# React + TypeScript + Vite
+# Fara Collections
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto de aplicación web de comercio electrónico (e-commerce) construido con React, TypeScript, Vite y Tailwind CSS.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Esta aplicación es una interfaz de tienda que incluye:
 
-## React Compiler
+- **Barra de Anuncios**: Para promociones o información destacada.
+- **Cabecera (Header)**: Navegación principal de la tienda.
+- **Sección Hero**: Banner promocional destacado.
+- **Cuadrícula de Productos (Product Grid)**: Visualización de los artículos de la colección.
+- **Pie de Página (Footer)**: Información de contacto y enlaces secundarios.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías
 
-## Expanding the ESLint configuration
+- **React 19**: Biblioteca de UI.
+- **TypeScript**: Tipado estático.
+- **Vite**: Entorno de desarrollo.
+- **Tailwind CSS**: Estilizado mediante clases de utilidad.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Scripts disponibles
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+En el directorio raíz del proyecto:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- `npm run dev`: Inicia el servidor de desarrollo.
+- `npm run build`: Compila el proyecto para producción.
+- `npm run lint`: Ejecuta el análisis de código con ESLint.
+- `npm run preview`: Previsualiza la versión compilada.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Estructura de Componentes
 
-```
+La aplicación está organizada bajo `src/components/`, incluyendo:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+- `AnnouncementBar.tsx`: Barra superior.
+- `Header.tsx`: Navegación.
+- `Hero.tsx`: Banner principal.
+- `ProductGrid.tsx`: Catálogo de productos.
+- `Footer.tsx`: Pie de página.
