@@ -18,6 +18,7 @@ Esta aplicación es una interfaz de tienda que incluye:
 - **TypeScript**: Tipado estático.
 - **Vite**: Entorno de desarrollo.
 - **Tailwind CSS**: Estilizado mediante clases de utilidad.
+- **ESLint**: Linting y validación de código.
 
 ## Scripts disponibles
 
