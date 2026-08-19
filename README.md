@@ -1,6 +1,6 @@
 # Fara Collections
 
-Proyecto de aplicación web de comercio electrónico (e-commerce) construido con React, TypeScript, Vite y Tailwind CSS.
+Proyecto de aplicación web de comercio electrónico (e-commerce) con panel de administración para gestión de productos, pedidos y usuarios..
 
 ## Características
 
