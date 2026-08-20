@@ -1,6 +1,6 @@
 # Fara Collections
 
-Proyecto de aplicación web de comercio electrónico (e-commerce) con panel de administración para gestión de productos, pedidos y usuarios..
+Proyecto de aplicación web de comercio electrónico (e-commerce) con panel de administración para gestión de productos, pedidos y usuarios.
 
 ## Características
 
@@ -38,3 +38,4 @@ La aplicación está organizada bajo `src/components/`, incluyendo:
 - `Hero.tsx`: Banner principal.
 - `ProductGrid.tsx`: Catálogo de productos.
 - `Footer.tsx`: Pie de página.
+
