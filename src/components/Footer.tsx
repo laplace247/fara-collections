@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           <div>
             <h3 className="font-serif text-2xl font-semibold mb-6">FARA</h3>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
@@ -29,6 +29,16 @@ export default function Footer() {
               <li><a href="#" className="hover:text-white transition-colors">Revista</a></li>
 
 
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xs font-medium tracking-widest uppercase mb-6">Redes</h4>
+            <ul className="space-y-3 text-gray-400 text-sm">
+              <li><a href="#" className="hover:text-white transition-colors">Facebook</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Instagram</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Twitter</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Whatsapp</a></li>
             </ul>
           </div>
 
