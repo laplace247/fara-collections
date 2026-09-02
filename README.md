@@ -6,10 +6,10 @@ Proyecto de aplicación web de comercio electrónico (e-commerce) con panel de a
 
 Esta aplicación es una interfaz de tienda que incluye:
 
-- **Barra de Anuncios**: Para promociones o información destacada.
+- **Barra de Anuncios (AnnouncementBar)**: Para promociones o información destacada.
 - **Cabecera (Header)**: Navegación principal de la tienda.
-- **Sección Hero**: Banner promocional destacado.
-- **Cuadrícula de Productos (Product Grid)**: Visualización de los artículos de la colección.
+- **Sección Hero (Hero)**: Banner promocional destacado.
+- **Cuadrícula de Productos (ProductGrid)**: Visualización de los artículos de la colección.
 - **Pie de Página (Footer)**: Información de contacto y enlaces secundarios.
 
 ## Tecnologías
@@ -38,4 +38,3 @@ La aplicación está organizada bajo `src/components/`, incluyendo:
 - `Hero.tsx`: Banner principal.
 - `ProductGrid.tsx`: Catálogo de productos.
 - `Footer.tsx`: Pie de página.
-
